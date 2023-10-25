@@ -17,4 +17,3 @@ class CreateProfileView(View):
     def post(self, request):
         store_file(request.FILES["image"])
         return HttpResponseRedirect("/profiles")
-
