@@ -1,0 +1,39 @@
+#main-navigation {
+  background-color: #390281;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+#stored-posts {
+  margin: 8rem auto 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  width: 90%;
+  max-width: 30rem;
+}
+
+#stored-posts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#stored-posts li {
+  margin: 1rem 0;
+}
+
+#stored-posts a {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  color: #1b1b1b;
+  font-weight: bold;
+}
+
+#stored-posts a:hover,
+#stored-posts a:active {
+  background-color: #ccc;
+}
