@@ -1,0 +1,88 @@
+article {
+  max-width: 60rem;
+  margin: 5rem auto;
+  border-radius: 6px;
+  background-color: #ede6f8;
+  border: 4px solid #350490;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+}
+
+#main-image {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  position: absolute;
+  top: -5rem;
+  left: calc(50% - 5rem);
+  border-radius: 50%;
+  border: 4px solid #350490;
+}
+
+section:first-of-type {
+  margin-top: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+address span {
+  font-weight: bold;
+}
+
+#details h2 {
+  margin-bottom: 0.5rem;
+}
+
+#details > p {
+  color: #665386;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 80%;
+  margin: auto;
+}
+
+#details footer {
+  color: #696472;
+}
+
+#details footer a {
+  color: #350490;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#registration ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#registration label {
+  font-weight: bold;
+  color: #46424d;
+  margin-right: 1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#registration input {
+  font: inherit;
+  width: 40%;
+  background-color: #ebeaee;
+  border: 1px solid #4b4753;
+  border-radius: 4px;
+  padding: 0.25rem;
+}
+
+#registration-actions {
+  margin-top: 1.5rem;
+}
+
+#registration .errorlist {
+  margin-bottom: 0.5rem;
+  color: #880824;
+}
